@@ -1,0 +1,109 @@
+/*estilos generales*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+nav {
+    background-color: #080707;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    font-weight: bold;
+    color: #0a031a;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    display:block;
+    padding: 10px 10px; 
+    color: white; 
+    text-decoration: none; 
+}
+
+.menu a:hover {
+    background-color: #1b1a1a;
+}
+
+.claseh1{
+    font-family: "Anton", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.mi-clase{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px 10px; 
+    box-shadow: 0px 0px 40px #0002;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 56px;
+}
+.card-tittle{
+    font-size: 22px;
+    margin: 0;
+}
+
+.card-subtitulo{
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card-contenido{
+    font-size: 11px;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: justify;
+    }
+
+.card_img{
+    width: 300px;
+    border-radius: 5%;  
+    box-shadow: 0px 0px 20px #0001;
+    }
+    
+    .fondo-nosotros {
+        background-image: url(img/nosotros.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px 20px;
+        min-height: 100vh;
+        color: rgb(17, 12, 12);
+    }
+    
+    
+    
